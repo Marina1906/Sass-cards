@@ -18,7 +18,9 @@ $fs-6: 10px;
 
 body {
   background-color: $clr-beige;
+  padding: 1rem;
 }
+
 h1 {
   font-size: $fs-1;
   font-weight: $fw-bold;
@@ -27,11 +29,13 @@ h1 {
 .heading_black {
   color: $clr-black-800;
 }
+
 .heading_orange {
   color: $clr-orange-500;
 }
 
-span {
+.heading_desc {
+  margin-top: 5px;
   font-size: $fs-2;
   font-weight: $fw-bold;
   color: $clr-orange-500;
@@ -40,27 +44,21 @@ span {
 h3 {
   font-size: $fs-3;
   font-weight: $fw-bold;
-  margin-top: 5px;
   color: $clr-beige-300;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
-
 h4 {
   font-size: $fs-4;
-  margin-top: 5px;
+  font-weight: $fw-normal;
   color: $clr-beige;
+  margin-top: 5px;
 }
 
 .grid__gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  padding-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.grid_card {
-  border-radius: 0.5rem;
-  background-color: $clr-gray-700;
+  gap: 2rem;
 }
 
 .card_body {
@@ -72,5 +70,7 @@ h4 {
 }
 
 .card_description {
-  text-align: left;
+  display: grid;
+  background-color: $clr-gray-700;
+  justify-content: space-evenly;
 }
