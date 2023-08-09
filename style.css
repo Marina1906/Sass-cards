@@ -3,6 +3,10 @@ body {
   padding: 1rem;
 }
 
+.m-t {
+  margin-top: 1rem;
+}
+
 h1 {
   font-size: 32px;
   font-weight: 700;
@@ -17,7 +21,6 @@ h1 {
 }
 
 .heading_desc {
-  margin-top: 5px;
   font-size: 24px;
   font-weight: 700;
   color: rgb(232, 93, 86);
@@ -55,7 +58,17 @@ h4 {
 .card_description {
   display: grid;
   background-color: rgb(73, 70, 74);
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.btn {
+  display: grid;
+  place-self: end;
+  width: 100px;
+  background-color: rgba(241, 37, 234, 0.267);
+  color: rgb(245, 233, 221);
+  font-weight: 700;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

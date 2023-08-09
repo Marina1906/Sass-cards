@@ -1,0 +1,19 @@
+$screen-sm: 364px;
+$screen-md: 768px;
+
+@media screen and (max-width: $screen-sm) {
+  
+    .grid__gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+}
+@media screen and (max-width: $screen-md) {
+  
+    .grid__gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+}

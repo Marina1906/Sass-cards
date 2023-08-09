@@ -20,7 +20,7 @@ body {
   background-color: $clr-beige;
   padding: 1rem;
 }
-
+.m-t {margin-top: 1rem;}
 h1 {
   font-size: $fs-1;
   font-weight: $fw-bold;
@@ -35,7 +35,6 @@ h1 {
 }
 
 .heading_desc {
-  margin-top: 5px;
   font-size: $fs-2;
   font-weight: $fw-bold;
   color: $clr-orange-500;
@@ -72,5 +71,14 @@ h4 {
 .card_description {
   display: grid;
   background-color: $clr-gray-700;
-  justify-content: space-evenly;
+  justify-content:center;
+}
+.btn {
+  display: grid;
+  place-self: end;
+  width: 100px;
+  background-color: $clr-violet-600;
+  color: $clr-beige;
+  font-weight: $fw-bold;
+  border-radius: 2rem;
 }
